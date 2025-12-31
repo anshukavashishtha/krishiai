@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="KrishiAI - Smart Agriculture Assistant">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="krishi_ai">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>KrishiAI</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- 🔥🔥 FIREBASE WEB SDK (ADD THIS PART) 🔥🔥 -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+
+  <script>
+    const firebaseConfig = {
+       apiKey: "AIzaSyDvr_-HiaL79_EVk5F51sIxelHiR3FCd4M",
+      authDomain: "krishiai-32434.firebaseapp.com",
+      projectId: "krishiai-32434",
+      storageBucket: "krishiai-32434.firebasestorage.app",
+      messagingSenderId: "374827311558",
+      appId: "1:374827311558:web:a45ecb349415fac83152c7",
+    };
+
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <!-- 🔥🔥 FIREBASE CONFIG END 🔥🔥 -->
+
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
