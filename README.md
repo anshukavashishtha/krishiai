@@ -1,16 +1,20 @@
-# krishi_ai
+# KrishiAI 🌱
 
-A new Flutter project.
+KrishiAI is a smart agriculture web application built using Flutter and Firebase.
 
-## Getting Started
+## Features
+- Secure user authentication using Firebase
+- AI-based farming assistant
+- Crop disease detection
+- Weather-based advisory
+- Light and dark mode support
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter (Web)
+- Dart
+- Firebase Authentication
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+```bash
+flutter pub get
+flutter run -d chrome
